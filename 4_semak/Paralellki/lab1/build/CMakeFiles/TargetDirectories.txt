@@ -1,3 +1,0 @@
-/home/a.stolyarov/Paralellki-1/build/CMakeFiles/sin.dir
-/home/a.stolyarov/Paralellki-1/build/CMakeFiles/edit_cache.dir
-/home/a.stolyarov/Paralellki-1/build/CMakeFiles/rebuild_cache.dir
