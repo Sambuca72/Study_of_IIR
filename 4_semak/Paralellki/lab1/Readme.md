@@ -5,7 +5,7 @@
 ## Сборка
 Для выбора типа данных используйте флаг `USE_DOUBLE`:
 
-- **float (по умолчанию):**
+- **float:**
 ```
   cmake -B build -DUSE_DOUBLE=OFF -S .
   cmake --build build
