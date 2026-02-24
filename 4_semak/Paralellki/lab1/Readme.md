@@ -6,15 +6,17 @@
 Для выбора типа данных используйте флаг `USE_DOUBLE`:
 
 - **float (по умолчанию):**
+```
   cmake -B build -DUSE_DOUBLE=OFF -S .
   cmake --build build
   ./build/main
-
+```
 - **double:**
+```
   cmake -B build -DUSE_DOUBLE=ON -S .
   cmake --build build
   ./build/main
-
+```
 ## Результаты
 | Тип | Сумма |
 | :--- | :--- |
