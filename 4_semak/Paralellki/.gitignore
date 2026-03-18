@@ -8,7 +8,6 @@ cmake_install.cmake
 *.out
 *.bin
 a.out
-lab1/
 Paralellki/lab2/integral/
 Paralellki/lab2/matrix/
 CMakeLists.txt
