@@ -20,7 +20,6 @@ void print_vector(const std::vector<double>& v) {
     std::cout << std::endl;
 }
 
-
 double norm(const std::vector<double>& x_new, const std::vector<double>& x_old) {
     double sum = 0.0;
 
