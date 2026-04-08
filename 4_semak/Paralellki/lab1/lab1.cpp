@@ -1,4 +1,3 @@
-#define _USE_MATH_DEFINES
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -15,13 +14,11 @@ using real_t = float;
 
 const size_t N = 10000000;
 
-int main()
-{
+int main() {
     std::vector<real_t> data(N);
     real_t sum = 0;
 
-    for (size_t i = 0; i < N; ++i)
-    {
+    for (size_t i = 0; i < N; ++i) {
         data[i] = std::sin(2.0 * M_PI * i / N);
         sum = sum + data[i];
     }

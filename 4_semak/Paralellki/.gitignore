@@ -1,0 +1,13 @@
+build/
+.vscode/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.o
+*.out
+*.bin
+a.out
+Paralellki/lab2/integral/
+Paralellki/lab2/matrix/
+CMakeLists.txt
