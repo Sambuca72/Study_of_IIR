@@ -1,0 +1,6 @@
+FROM nginx:alpine
+
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# curl -H "X-forwarded-For: 84.237.54.110" -i http://127.0.0.1http://127.0.0.1:80/parse?url=https://quotes.toscrape.com
+# docker-compose up --build
