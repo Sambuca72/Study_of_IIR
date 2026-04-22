@@ -11,7 +11,7 @@ def get_connection():
     db_port = int(os.getenv("DB_PORT", 5432))
     db_name = os.getenv("DB_NAME", "krytoi_parser")
     db_user = os.getenv("DB_USER", "postgres")
-    db_pass = os.getenv("DB_PASSWORD", "popka228")
+    db_pass = os.getenv("DB_PASSWORD", "")
 
     retries = 10
     while retries > 0:
